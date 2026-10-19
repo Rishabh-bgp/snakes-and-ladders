@@ -164,14 +164,14 @@ node --test tests/
 
 ## Lighthouse
 
-Measured with Lighthouse 12.8 (headless Chrome, default simulated throttling).
+Measured with Lighthouse 12.8 (headless Chrome, default simulated throttling) against the live GitHub Pages site.
 
-| Run | Performance | Accessibility | Best practices | SEO | LCP |
-|---|---|---|---|---|---|
-| Desktop | **100** | **100** | **100** | **100** | 0.4 s |
-| Mobile | **99** | **100** | **100** | **100** | 1.6 s |
+| Run | Performance | Accessibility | Best practices | SEO | FCP | LCP |
+|---|---|---|---|---|---|---|
+| Desktop | **100** | **100** | **100** | **100** | 0.3 s | 0.3 s |
+| Mobile | **100** | **100** | **100** | **100** | 1.0 s | 1.0 s |
 
-Cumulative layout shift is 0.
+Total blocking time is 0 ms and cumulative layout shift is 0. The same 115 browser checks also pass against the live site.
 
 ## Folder structure
 
